@@ -1,0 +1,43 @@
+{
+    "HF_TOKEN_PATH": "/path/to/hf_token.txt",
+    "WANDB_TOKEN_PATH": "/path/to/wandb_token.txt",
+    "OPENAI_APIKEY_PATH": "/path/to/openai_api_key.txt",
+    "CACHE_PATH": "./.cache",
+    "HF_MODEL_PATH": "./hf_models",
+    "MODEL_SAVE_PATH": "./hf_models/saved",
+    "DEFAULT_QUANTIZATION": "4bit",
+    "DEFAULT_MAX_TOKENS": 200,
+    "DEFAULT_DATASET": "medredqa",
+    "STYLE_VARIANTS": {
+        "reading_level": ["elementary", "middle", "high", "graduate"],
+        "formality": ["formal", "informal"],
+        "domain_knowledge": ["informed", "uninformed"]
+    },
+    "EVALUATION_CRITERIA": ["correctness", "completeness", "coherence", "linguistic_adaptability"],
+    "SUPPORTED_MODELS": {
+        "hf_models": [
+            "microsoft/Phi-3-mini-4k-instruct",
+            "microsoft/phi-4",
+            "microsoft/Phi-4-reasoning-plus",
+            "meta-llama/Llama-3.1-8B-Instruct",
+            "meta-llama/Llama-3.2-1B-Instruct",
+            "meta-llama/Llama-3.2-3B-Instruct",
+            "meta-llama/Llama-3.3-70B-Instruct",
+            "Qwen/Qwen3-4B",
+            "Qwen/Qwen3-8B",
+            "Qwen/Qwen3-32B",
+            "Qwen/Qwen3-0.6B",
+            "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+            "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+            "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+        ],
+        "openai_models": [
+            "gpt-3.5-turbo",
+            "gpt-4o",
+            "gpt-4o-2024-08-06",
+            "chatgpt-4o-latest",
+            "o3-mini",
+            "o3-mini-2025-01-31"
+        ]
+    }
+}
