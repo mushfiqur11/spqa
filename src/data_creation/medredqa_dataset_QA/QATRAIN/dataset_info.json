@@ -1,0 +1,82 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 1315606,
+  "description": "",
+  "download_checksums": {
+    "/scratch/mrahma45/tone_adjustment/src/data_creation/./../../data/medredqa/QATRAIN.json": {
+      "num_bytes": 1357819,
+      "checksum": null
+    }
+  },
+  "download_size": 1357819,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "document": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "response": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "formal": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "informal": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "informed": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "uninformed": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "elementary": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "middle": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "high": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "graduate": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "serial_number": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2673425,
+  "splits": {
+    "QATRAIN": {
+      "name": "QATRAIN",
+      "num_bytes": 1315606,
+      "num_examples": 350,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
